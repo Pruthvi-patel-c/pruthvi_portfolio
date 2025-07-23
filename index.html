@@ -2,65 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pruthvi Patel C - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pruthvi Patel C | Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      padding: 20px;
+      animation: fadeIn 1.5s ease-in;
     }
-
     header {
-      background-color: #1e1e1e;
-      color: white;
-      padding: 40px 20px;
       text-align: center;
+      margin-bottom: 40px;
     }
-
-    header img {
-      width: 180px;
-      height: 180px;
+    img {
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
-      margin-bottom: 20px;
-      border: 4px solid white;
+      border: 5px solid #fff;
+      animation: scaleUp 1s ease-in-out;
     }
-
     h1 {
       font-size: 36px;
       margin: 10px 0;
     }
-
     h2 {
       font-size: 28px;
-      margin-bottom: 10px;
+      margin-top: 40px;
     }
-
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .label {
+    p {
       font-size: 18px;
-      font-weight: bold;
+      line-height: 1.6;
     }
-
     a {
-      color: #0066cc;
+      color: #ffe57f;
+      text-decoration: none;
     }
-
-    hr {
-      margin: 20px 0;
-      border: 0;
-      height: 1px;
-      background-color: #ccc;
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes scaleUp {
+      from { transform: scale(0.8); }
+      to { transform: scale(1); }
     }
   </style>
 </head>
@@ -69,27 +64,53 @@
     <img src="profile.jpg" alt="Pruthvi Patel C" />
     <h1>Pruthvi Patel C</h1>
     <p style="font-size: 20px;">Computer Science Student | Shivamogga, Karnataka</p>
-    <p>Email: <a href="mailto:pruthvipatelc2006@gmail.com" style="color: white;">pruthvipatelc2006@gmail.com</a></p>
+    <p>Email: <a href="mailto:pruthvipatelc2006@gmail.com">pruthvipatelc2006@gmail.com</a></p>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p style="font-size: 18px;">
-      I'm a passionate Computer Science Engineering student from Karnataka, Shivamogga.
-      I love exploring programming languages and building web-based solutions. I'm certified in Python, C programming, and IoT.
-      My areas of interest include full-stack web development, AI/ML, and cybersecurity.
-      I enjoy solving real-world problems using technology and constantly aim to improve my skills by working on diverse projects.
+    <p>
+      I'm a passionate Computer Science Engineering student from Karnataka, Shivamogga. I love exploring programming languages and building web-based solutions. My areas of interest include full-stack web development, artificial intelligence/machine learning, and cybersecurity. I enjoy solving real-world problems using technology and constantly aim to improve my skills through projects and certifications.
+    </p>
+    <p>
+      With an analytical mindset and curiosity for innovation, I have dedicated myself to continuous learning. I am experienced in C programming and the Internet of Things (IoT), which help me bridge the gap between hardware and software. My proactive nature drives me to seek opportunities in tech communities and hackathons. I aspire to become a well-rounded software developer with expertise in designing secure and scalable applications. Through this portfolio, I hope to share a glimpse of my professional journey and skills.
     </p>
   </section>
 
   <section>
     <h2>Certifications</h2>
-    <p style="font-size: 18px;">
-      <span class="label">Python Programming:</span>
-      Completed certification on Python programming, covering core topics such as data types, control structures, file handling, and libraries.
-      <br>
-      📄 <a href="https://drive.google.com/file/d/1A3q-TacGpRiTSHlfX6MT-HzWTW9IMTeK/view?usp=drive_link" target="_blank">View Certificate</a>
-    </p>
+    <ul>
+      <li>
+        <strong>C Programming:</strong>
+        <a href="https://drive.google.com/file/d/1vcVn-WpX9vBYs9h9uinzpBJ4uR54QPT6/view?usp=drive_link" target="_blank">View Certificate</a>
+      </li>
+      <li>
+        <strong>IoT:</strong>
+        <a href="https://drive.google.com/file/d/1rC9kAtlQSfEOfUv_9EyDusSFbj9kEsZn/view?usp=drive_link" target="_blank">View Certificate</a>
+      </li>
+      <li>
+        <strong>Python:</strong>
+        <a href="https://drive.google.com/file/d/1A3q-TacGpRiTSHlfX6MT-HzWTW9IMTeK/view?usp=sharing" target="_blank">View Certificate</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>
+        <strong>Python:</strong>
+        A versatile language I use for automation, data analysis, and web development.
+      </li>
+      <li>
+        <strong>C Programming:</strong>
+        My foundational programming language that taught me memory management and logic building.
+      </li>
+      <li>
+        <strong>Basic Computer Skills:</strong>
+        Proficient in handling everyday software tools, file systems, and digital workflows.
+      </li>
+    </ul>
   </section>
 </body>
 </html>
